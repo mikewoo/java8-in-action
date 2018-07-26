@@ -1,4 +1,6 @@
-package com.mikewoo.study.java8;
+package com.mikewoo.study.java8.lambda;
+
+import com.mikewoo.study.java8.domain.Apple;
 
 import java.util.ArrayList;
 import java.util.Arrays;

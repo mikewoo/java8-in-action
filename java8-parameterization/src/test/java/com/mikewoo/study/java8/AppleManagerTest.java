@@ -1,6 +1,8 @@
 package com.mikewoo.study.java8;
 
+import com.mikewoo.study.java8.domain.Apple;
 import com.mikewoo.study.java8.filter.AppleFilter;
+import com.mikewoo.study.java8.filter.AppleManager;
 import com.mikewoo.study.java8.filter.DefaultColorAndWeightFilter;
 import org.junit.Test;
 

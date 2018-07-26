@@ -1,6 +1,6 @@
 package com.mikewoo.study.java8.filter;
 
-import com.mikewoo.study.java8.Apple;
+import com.mikewoo.study.java8.domain.Apple;
 
 /**
  * @author : Eric Gui

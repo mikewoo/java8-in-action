@@ -1,5 +1,6 @@
-package com.mikewoo.study.java8;
+package com.mikewoo.study.java8.filter;
 
+import com.mikewoo.study.java8.domain.Apple;
 import com.mikewoo.study.java8.filter.AppleFilter;
 
 import java.util.ArrayList;

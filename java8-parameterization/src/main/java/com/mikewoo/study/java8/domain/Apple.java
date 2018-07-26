@@ -1,4 +1,4 @@
-package com.mikewoo.study.java8;
+package com.mikewoo.study.java8.domain;
 
 /**
  * @author : Eric Gui
@@ -10,12 +10,21 @@ public class Apple {
 
     private long weight;
 
+    private String origin;
+
     public Apple() {
     }
 
     public Apple(String color, long weight) {
         this.color = color;
         this.weight = weight;
+        this.origin = "anhui";
+    }
+
+    public Apple(String color, long weight, String origin) {
+        this.color = color;
+        this.weight = weight;
+        this.origin = origin;
     }
 
     public String getColor() {
@@ -34,11 +43,20 @@ public class Apple {
         this.weight = weight;
     }
 
+    public String getOrigin() {
+        return origin;
+    }
+
+    public void setOrigin(String origin) {
+        this.origin = origin;
+    }
+
     @Override
     public String toString() {
         return "Apple{" +
                 "color='" + color + '\'' +
                 ", weight=" + weight +
+                ", origin='" + origin + '\'' +
                 '}';
     }
 }
