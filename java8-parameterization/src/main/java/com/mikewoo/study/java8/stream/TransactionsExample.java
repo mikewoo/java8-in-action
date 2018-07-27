@@ -30,10 +30,16 @@ public class TransactionsExample {
 
 
         // 1. Find all transactions in the year 2011 and sort them by value (small to high).
-        System.out.println("==========1=======");
+        System.out.println("==========1.1=======");
         transactions.stream()
                 .filter(transaction -> transaction.getYear() == 2011)
-                .sorted(Comparator.comparing(Transaction::getValue))
+                .sorted(Comparator.comparing(Transaction::getValue)) // (small to high)
+                .forEach(System.out::println);
+
+        System.out.println("==========1.2=======");
+        transactions.stream()
+                .filter(transaction -> transaction.getYear() == 2011)
+                .sorted(Comparator.comparing(Transaction::getValue).reversed()) // (high to small)
                 .forEach(System.out::println);
 
         // 2. What are all the unique cities where the traders work?
