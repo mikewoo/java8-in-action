@@ -7,7 +7,7 @@ import java.util.concurrent.Future;
  * @author Eric Gui
  * @date 2018/8/2
  */
-public class ForkJoinExample1 {
+public class ForkJoinExample {
 
     private static int[] data = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
